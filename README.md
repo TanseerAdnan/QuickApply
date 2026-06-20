@@ -56,28 +56,28 @@ Build & Release
 Architecture Overview
 com.t.quickapply
 ├── data/
-│   ├── local/           # DataStore-backed CV storage
-│   ├── model/            # Firestore data models
+│   ├── local/           
+│   ├── model/            
 │   ├── remote/
-│   │   ├── ai/           # Groq API client + repository
-│   │   ├── config/       # Firebase Remote Config provider
-│   │   ├── firebase/     # Auth + Firestore repositories
-│   │   └── gmail/        # Gmail API sender
-│   └── repository/       # Repository implementations
+│   │   ├── ai/           
+│   │   ├── config/       
+│   │   ├── firebase/    
+│   │   └── gmail/       
+│   └── repository/     
 ├── domain/
-│   ├── model/             # Domain models
-│   ├── repository/        # Repository interfaces
-│   └── usecase/           # Business logic (one responsibility per use case)
+│   ├── model/             
+│   ├── repository/        
+│   └── usecase/          
 └── presentation/
-    ├── auth/               # Sign-in screen + ViewModel
-    ├── cv/                 # Resume upload, preview, AI enhance
-    ├── draft/              # Draft editor with AI enhance
-    ├── home/               # Draft list + send-application flow
-    ├── applications/      # Sent application history
-    ├── profile/            # User profile + sign out
-    ├── navigation/         # Nav graph + bottom navigation
-    ├── theme/              # Light/dark theme + persistence
-    └── components/        # Shared UI components
+    ├── auth/              
+    ├── cv/               
+    ├── draft/            
+    ├── home/               
+    ├── applications/     
+    ├── profile/           
+    ├── navigation/         
+    ├── theme/             
+    └── components/      
 
 The app follows a strict dependency direction: presentation depends on domain, domain depends on nothing (pure Kotlin interfaces/models), and data implements the domain interfaces. This keeps the business logic testable and decoupled from Android/Firebase specifics.
 
