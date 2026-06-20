@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "316888529188",
+    "project_id": "quickapply-t",
+    "storage_bucket": "quickapply-t.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316888529188:android:ad231578491e43b69cdbb1",
+        "android_client_info": {
+          "package_name": "com.t.quickapply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316888529188-rqo5pk8md7su0sar0i27rpktp5idb3vi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t.quickapply",
+            "certificate_hash": "580a1a84b178c5c029c537d1fbcf547c3d77fb9d"
+          }
+        },
+        {
+          "client_id": "316888529188-qgesm6nak9i9j4n3jnraq662kt0rksq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Jl5aSG_-g-2auJdbLW9AsM6Bg3DdCdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316888529188-qgesm6nak9i9j4n3jnraq662kt0rksq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
